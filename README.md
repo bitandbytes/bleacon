@@ -16,7 +16,7 @@ npm install mqtt
 npm install modules?? // can't remember
 git clone https://github.com/bitandbytes/bleacon.git
 ```
-into the node_modules folder
+'git clone' should be done into the node_modules folder
 
 ## Usage
 
