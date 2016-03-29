@@ -13,10 +13,10 @@ A Node.js library for creating, discovering, and configuring iBeacons
 
 ```sh
 npm install mqtt
-npm install modules?? // can't remember
+npm install moment
 git clone https://github.com/bitandbytes/bleacon.git
 ```
-'git clone' should be done into the node_modules folder
+'git clone' should be done into the 'node_modules' folder
 
 ## Usage
 
