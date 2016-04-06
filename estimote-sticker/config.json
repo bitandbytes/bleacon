@@ -1,0 +1,16 @@
+{
+"configVer" :1,
+"modalityMap": 1,
+"generic.node-id": "x-100",
+"mqtt.local.host" : "mqtt://127.0.0.1",
+"mqtt.local.port" : "1883",
+"mqtt.local.pubTopic" : "bbb/data/sticker/",
+"mqtt.local.options.qos" : 1,
+"mqtt.local.options.clientId" : "IoT",
+"mqtt.local.options.KeepAlive" : 60 ,
+"mqtt.local.options.timeOut" : 30
+}
+
+
+
+

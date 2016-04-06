@@ -101,9 +101,9 @@ EstimoteSticker.prototype.onDiscover = function(peripheral) {
     }
 
     var acceleration = {
-      x: manufacturerData.readInt8(16) * 15.625,
-      y: manufacturerData.readInt8(17) * 15.625,
-      z: manufacturerData.readInt8(18) * 15.625
+      x: manufacturerData.readInt8(16) * 16,
+      y: manufacturerData.readInt8(17) * 16,
+      z: manufacturerData.readInt8(18) * 16
     };
 
     var currentMotionStateDuration = convertMotionStateDuration(manufacturerData.readUInt8(19));
